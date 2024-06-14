@@ -1,0 +1,228 @@
+h1 {
+    font-size: 112px;
+    font-family: 'Jacques Francois', serif;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Jacques Francois', serif;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Jacques Francois', serif;
+}
+h5 {
+    font-size: 24px;
+    font-family: 'Jacques Francois', serif;
+}
+p {
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+}
+.max-width-1224 {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(72, 83, 66);
+}
+.block-header-content {
+    padding: 34px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-header-logo img{
+    width: 149px;
+}
+.block-header-content nav ul {
+    display: flex;
+}
+.block-header-content nav ul li {
+    margin-left: 40px;
+}
+.block-header-content nav ul li .nav_link {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.block1 {
+    background-image: url("./assets/images/block1-pricing.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.block-content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.block1 h2 {
+    margin-bottom: 40px;
+}
+
+.block2 {
+    background-color: rgb(199, 206, 201);
+    color:rgb(72, 83, 66);
+    text-align: center;
+}
+.block2 h2 {
+    margin-bottom: 20px;
+}
+.block2 p {
+    width: 65%;
+    margin: auto;
+}
+.padding-130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.block3 {
+    background-color: rgb(92, 103, 86);
+    color: white;
+}
+.block3 a {
+    color: white;
+}
+.flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex-box {
+    width: 50%;
+}
+.flex-box h3 {
+    margin-bottom: 30px;
+}
+.flex-box p {
+    margin-bottom: 20px;
+    padding-right: 10%;
+}
+.price-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button_link {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    border: 3px solid;
+    font-size: 14px;
+    width: 30%;
+    padding: 3px;
+}
+.block4 {
+    background-color: rgb(199, 206, 201);
+    color: rgb(72, 83, 66);
+}
+.block4 a {
+    color: rgb(72, 83, 66);
+}
+.block5 {
+    background-color: rgb(92, 103, 86);
+    color: white;
+}
+.block5 a {
+    color: white;
+}
+.block6 {
+    background-color: rgb(199, 206, 201);
+    color: rgb(72, 83, 66);
+}
+.form {
+    background-color: #2f3a29;
+    color: white;
+}
+.form-content {
+    display: flex;
+    align-items: center;
+}
+.form .flex-box {
+    width: 50%;
+}
+.text-section h2 {
+    padding-bottom: 28px;
+}
+.text-section p {
+    width: 70%;
+}
+.form-section form {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    line-height: 1.8;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-section form label {
+    font-size: 16px;
+}
+.form-section form input,
+.form-section form textarea {
+    font-family: 'Poppins', sans-serif;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(245, 248, 251, 0.6);
+    color: rgb(86, 86, 86);
+    font-size: 16px;
+}
+button {
+    font-size: 14px;
+    border: 3px solid white;
+    border-radius: 35px;
+    color: white;
+    background-color: transparent;
+    padding: 3px 37px;
+    font-family: 'Poppins', sans-serif;
+}
+.block8 {
+    background: rgb(72, 83, 66);
+    color: white;
+    text-align: center;
+}
+.block8 p {
+    width: 47%;
+    margin: auto;
+}
+.block8 h2 {
+    margin-bottom: 30px;
+}
+footer {
+    background-color: rgb(199, 206, 201);
+    padding: 85px 0;
+    color: rgb(72, 83, 66);
+}
+footer .footer-logo img {
+    width: 149px;
+}
+footer .flex-content {
+    display: flex;
+    align-items: flex-start;
+}
+footer .flex-box-50 {
+    width: 50%;
+}
+footer .flex-box-25 {
+    width: 25%;
+}
+footer .nav li {
+    padding-bottom: 12px;
+}
+footer a {
+    color: rgb(72, 83, 66);
+    font-size: 14px;
+}
+.fa {
+    font-size: 16px;
+    padding-right: 16px;
+}

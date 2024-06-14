@@ -1,0 +1,273 @@
+h1 {
+    font-size: 112px;
+    font-family: 'Jacques Francois', serif;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Jacques Francois', serif;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Jacques Francois', serif;
+}
+h4 {
+    font-size: 32px;
+    font-family: 'Jacques Francois', serif;
+}
+p {
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    width: 100%;
+}
+.max-width-1224 {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(72, 83, 66);
+}
+.block-header-content {
+    padding: 34px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-header-logo img{
+    width: 149px;
+}
+.block-header-content nav ul {
+    display: flex;
+}
+.block-header-content nav ul li {
+    margin-left: 40px;
+}
+.block-header-content nav ul li .nav_link {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.block1 {
+    background-image: url("./assets/images/block1_homepage.avif");
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+.block-content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.block1 p {
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.block1 a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.block1 h2 {
+    margin-bottom: 40px;
+}
+.block1 p {
+    margin-bottom: 40px;
+}
+.block2 {
+    background-color: rgb(199, 206, 201);
+    color: rgb(72, 83, 66);
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.padding-130 {
+    padding: 130px 0;
+}
+.block-content2 h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.block-content2 h4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.block-content2 p {
+    text-align: center;
+}
+.block-content2 a {
+    color: rgb(72, 83, 66);
+}
+.button_link {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    border: 3px solid;
+    font-size: 14px;
+    width: 50%;
+    padding: 10px;
+}
+.flex-content-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-box-30 {
+    width: 30%;
+}
+.block3 {
+    background-color: rgb(219, 226, 221);
+    color: rgb(72, 83, 66);
+}
+.block3-text {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+}
+.block3-text h3 {
+    margin-bottom: 30px;
+}
+.block3-text p {
+    margin-bottom: 25px;
+}
+.block3-text a {
+    color: rgb(72, 83, 66);
+}
+.flex-content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-box-50 {
+    width: 50%;
+}
+.block4 {
+    background-color: rgb(72, 83, 66);
+    color: white;
+}
+.block4-text {
+    padding-right: 15%;
+    margin: auto;
+}
+.block4-text h3 {
+    margin-bottom: 30px;
+}
+.block4-text p {
+    margin-bottom: 25px;
+}
+.block4-text a {
+    color: white;
+}
+.block5 {
+    background: rgb(47, 58, 41);
+    color: white;
+    text-align: center;
+}
+.block5 p {
+    width: 47%;
+    margin: auto;
+}
+.block5 h2 {
+    margin-bottom: 30px;
+}
+.block6 {
+    background: rgb(219, 226, 221);
+    color: rgb(72, 83, 66);
+    text-align: center;
+}
+.block6 h2 {
+    margin-bottom: 90px;
+}
+.block6 a {
+    color: rgb(72, 83, 66);
+    margin-top: 55px;
+    width: 20%;
+}
+.form {
+    color: white;
+    background-color: rgb(72, 83, 66);
+}
+.form-content {
+    display: flex;
+    align-items: center;
+}
+.form .flex-box {
+    width: 50%;
+}
+.text-section h2 {
+    padding-bottom: 28px;
+}
+.text-section p {
+    width: 70%;
+}
+.form-section form {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    line-height: 1.8;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-section form label {
+    font-size: 16px;
+}
+.form-section form input,
+.form-section form textarea {
+    font-family: 'Poppins', sans-serif;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(245, 248, 251, 0.6);
+    color: rgb(86, 86, 86);
+    font-size: 16px;
+}
+button {
+    font-size: 14px;
+    border: 3px solid white;
+    border-radius: 35px;
+    color: white;
+    background-color: transparent;
+    padding: 3px 37px;
+    font-family: 'Poppins', sans-serif;
+}
+footer {
+    background-color: rgb(199, 206, 201);
+    padding: 85px 0;
+    color: rgb(72, 83, 66);
+}
+footer .footer-logo img {
+    width: 149px;
+}
+footer .flex-content {
+    display: flex;
+}
+footer .flex-box-50 {
+    width: 50%;
+}
+footer .flex-box-25 {
+    width: 25%;
+}
+footer .nav li {
+    padding-bottom: 12px;
+}
+footer a {
+    color: rgb(72, 83, 66);
+    font-size: 14px;
+}
+.fa {
+    font-size: 16px;
+    padding-right: 16px;
+}
